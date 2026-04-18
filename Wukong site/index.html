@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Myth: Wukong — Fan Site</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <span class="logo">Black Myth: Wukong</span>
+    <ul>
+      <li><a href="#" onclick="showPage('home')"       class="nav-link active">Home</a></li>
+      <li><a href="#" onclick="showPage('about')"      class="nav-link">About</a></li>
+      <li><a href="#" onclick="showPage('characters')" class="nav-link">Characters</a></li>
+      <li><a href="#" onclick="showPage('gameplay')"   class="nav-link">Gameplay</a></li>
+      <li><a href="#" onclick="showPage('story')"      class="nav-link">Story</a></li>
+      <li><a href="#" onclick="showPage('media')"     class="nav-link">Media</a></li>
+      <li><a href="#" onclick="showPage('contact')"   class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- Home Page -->
+  <section id="home" class="page active">
+    <p style="color:var(--muted); letter-spacing:2px; font-size:0.85rem; margin-bottom:1rem;">GAME SCIENCE — 2024</p>
+    <h1>Black Myth: Wukong</h1>
+    <p class="hero-subtitle">The Destiny of the Destined — Action RPG</p>
+    <div class="hero-line"></div>
+
+    <p class="hero-intro">
+      Black Myth: Wukong is an action RPG by Game Science based on Journey to the West.
+      Players play as the Destined One, a Monkey King reborn, on a journey through mythological worlds.
+    </p>
+    <p class="hero-intro">
+      Released August 2024, it sold over 10 million copies in 3 days.
+    </p>
+
+    <button class="btn" onclick="showPage('about')">Discover the Game</button>
+  </section>
+
+
+  <!-- About Page -->
+  <section id="about" class="page">
+    <h2>About the Game</h2>
+
+    <div class="info-grid">
+      <div>
+        <h3>What is it?</h3>
+        <p>
+          Black Myth: Wukong is a single-player action RPG inspired by Chinese mythology.
+          Players take on the role of the Destined One, a successor to Sun Wukong.
+          The game features fast-paced combat, deep boss encounters, and stunning environments.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Facts</h3>
+        <dl style="display:grid; grid-template-columns:auto 1fr; gap:6px 1rem; font-size:0.9rem;">
+          <dt style="color:var(--muted);">Developer</dt> <dd>Game Science</dd>
+          <dt style="color:var(--muted);">Release</dt>   <dd>August 20, 2024</dd>
+          <dt style="color:var(--muted);">Genre</dt>     <dd>Action RPG</dd>
+          <dt style="color:var(--muted);">Platform</dt>  <dd>PC, PS5, Xbox</dd>
+          <dt style="color:var(--muted);">Engine</dt>    <dd>Unreal Engine 5</dd>
+          <dt style="color:var(--muted);">Sales</dt>     <dd>10M+ in 3 days</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3>Why It Matters</h3>
+    <p>
+      It's the first AAA game from China to achieve worldwide success,
+      showing Chinese studios can compete at the highest level.
+    </p>
+  </section>
+
+
+  <!-- Characters Page -->
+  <section id="characters" class="page">
+    <h2>Characters</h2>
+
+    <div class="info-grid">
+      <div>
+        <h3 style="margin-bottom:1.2rem;">Power Ratings</h3>
+
+        <div class="skill-item">
+          <div class="skill-label"><span>Sun Wukong</span><span>100%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="100"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label"><span>The Destined One</span><span>85%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label"><span>Yellow Wind Sage</span><span>72%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="72"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label"><span>Tiger Vanguard</span><span>65%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label"><span>Guangmou</span><span>78%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+        </div>
+      </div>
+
+      <div>
+        <h3>Key Characters</h3>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="timeline-role">Sun Wukong — The Great Sage</p>
+            <p style="font-size:0.875rem;">
+              The legendary Monkey King. Imprisoned under a mountain, his legacy drives the story.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-role">The Destined One</p>
+            <p style="font-size:0.875rem;">
+              The player character. A monkey warrior sent to collect the relics of the Great Sage.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-role">Yellow Wind Sage</p>
+            <p style="font-size:0.875rem;">
+              A powerful wind demon and major boss in Chapter 2, ruler of Yellow Wind Ridge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Gameplay Page -->
+  <section id="gameplay" class="page">
+    <h2>Gameplay</h2>
+    <p style="color:var(--muted); margin-bottom:2rem;">
+      A deep action RPG with fluid combat, transformation abilities, and challenging boss fights.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Combat System</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Fast staff combat with light/heavy attacks, dodges, and parries. Build Focus for charged strikes.
+        </p>
+        <span class="tag">Action</span>
+        <span class="tag">Staff</span>
+      </div>
+
+      <div class="card">
+        <h3>Transformation</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Freeze enemies or transform into defeated bosses to use their powers.
+        </p>
+        <span class="tag">Spells</span>
+        <span class="tag">Boss Forms</span>
+      </div>
+
+      <div class="card">
+        <h3>Skills & Upgrades</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Unlock abilities across three skill trees. Craft equipment from boss drops.
+        </p>
+        <span class="tag">RPG</span>
+        <span class="tag">Crafting</span>
+      </div>
+
+      <div class="card">
+        <h3>World Design</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Six vast chapters in ancient Chinese environments built with Unreal Engine 5.
+        </p>
+        <span class="tag">Open World</span>
+        <span class="tag">UE5</span>
+      </div>
+
+      <div class="card">
+        <h3>Boss Fights</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Over 80 unique bosses — the game's defining feature, each with multiple phases.
+        </p>
+        <span class="tag">Challenging</span>
+        <span class="tag">80+ Bosses</span>
+      </div>
+
+      <div class="card">
+        <h3>Gourd System</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Your healing flask. Brew it with medicines to add buffs alongside healing.
+        </p>
+        <span class="tag">Survival</span>
+        <span class="tag">Brewing</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Story Page -->
+  <section id="story" class="page">
+    <h2>The Story</h2>
+    <p style="color:var(--muted); margin-bottom:2rem;">
+      Adapted from the 16th-century novel Journey to the West by Wu Cheng'en.
+    </p>
+
+    <h3 style="margin-bottom:1.5rem;">Chapter by Chapter</h3>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <p class="timeline-date">PROLOGUE</p>
+        <p class="timeline-role">The Heavenly Courts</p>
+        <p class="timeline-company">Black Wind Mountain</p>
+        <p style="font-size:0.9rem;">
+          Sun Wukong's final battle against the gods. Defeated and imprisoned,
+          he entrusts his legacy to future generations.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">CHAPTER 1</p>
+        <p class="timeline-role">The Forest of Wolves</p>
+        <p class="timeline-company">Black Wind Mountain</p>
+        <p style="font-size:0.9rem;">
+          The player awakens as a monkey warrior and fights through wolf clan territory.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">CHAPTER 2</p>
+        <p class="timeline-role">Yellow Wind Ridge</p>
+        <p class="timeline-company">Desert Lands</p>
+        <p style="font-size:0.9rem;">
+          A scorched desert ruled by the Yellow Wind Sage. Battle through sandstorms.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">CHAPTER 3</p>
+        <p class="timeline-role">The New West</p>
+        <p class="timeline-company">Buddhist Temples</p>
+        <p style="font-size:0.9rem;">
+          A land of false Buddhism and corruption. Uncover dark secrets.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">CHAPTERS 4–6</p>
+        <p class="timeline-role">The Final Trials</p>
+        <p class="timeline-company">Flaming Mountains & Beyond</p>
+        <p style="font-size:0.9rem;">
+          The journey culminates in the Flaming Mountains and a confrontation with destiny.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Media Page -->
+  <section id="media" class="page">
+    <h2>Media & Reception</h2>
+    <p style="color:var(--muted); margin-bottom:2rem;">
+      Critical acclaim and record-breaking sales.
+    </p>
+
+    <div class="card-grid">
+      <div class="card" style="text-align:center;">
+        <div class="interest-icon">🏆</div>
+        <h3>10M+ Copies</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Sold over 10 million copies in just 3 days.
+        </p>
+      </div>
+
+      <div class="card" style="text-align:center;">
+        <div class="interest-icon">⭐</div>
+        <h3>82 Metacritic</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Strong critic reception praising visuals and boss design.
+        </p>
+      </div>
+
+      <div class="card" style="text-align:center;">
+        <div class="interest-icon">🎮</div>
+        <h3>Steam Peak: 2.4M</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Peak concurrent players reached 2.4 million.
+        </p>
+      </div>
+
+      <div class="card" style="text-align:center;">
+        <div class="interest-icon">🌏</div>
+        <h3>Cultural Impact</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Renewed worldwide interest in Journey to the West and Chinese mythology.
+        </p>
+      </div>
+
+      <div class="card" style="text-align:center;">
+        <div class="interest-icon">🎬</div>
+        <h3>Cinematic Trailers</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Multiple trailers built enormous hype since 2020.
+        </p>
+      </div>
+
+      <div class="card" style="text-align:center;">
+        <div class="interest-icon">🦁</div>
+        <h3>PS5 Partnership</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          Special limited-edition PS5 with Wukong's gold design.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Page -->
+  <section id="contact" class="page">
+    <h2>Contact</h2>
+    <p style="color:var(--muted); margin-bottom:2rem;">
+      Have feedback or want to get in touch? Send a message below.
+    </p>
+
+    <div class="contact-form">
+      <form onsubmit="handleForm(event)">
+        <div class="form-group">
+          <label for="c-name">Your Name</label>
+          <input type="text" id="c-name" placeholder="Jane Smith" required />
+        </div>
+
+        <div class="form-group">
+          <label for="c-email">Email Address</label>
+          <input type="email" id="c-email" placeholder="jane@email.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="c-subject">Subject</label>
+          <input type="text" id="c-subject" placeholder="Feedback or question" required />
+        </div>
+
+        <div class="form-group">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        ✓ Message received! Thank you for reaching out.
+      </div>
+    </div>
+
+    <div style="margin-top:3rem; display:flex; gap:2rem; flex-wrap:wrap;">
+      <div>
+        <p style="font-size:0.8rem; color:var(--muted); margin-bottom:4px;">OFFICIAL SITE</p>
+        <p>blackmythwukong.com</p>
+      </div>
+      <div>
+        <p style="font-size:0.8rem; color:var(--muted); margin-bottom:4px;">DEVELOPER</p>
+        <p>Game Science</p>
+      </div>
+      <div>
+        <p style="font-size:0.8rem; color:var(--muted); margin-bottom:4px;">FAN SITE BY</p>
+        <p>Aayatish Gautam — The British College</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Black Myth: Wukong. Fan Site — Built with HTML5, CSS3 & JavaScript | Aayatish Gautam, The British College 2025</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
